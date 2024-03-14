@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
   <compounddef id="contributors" kind="page">
     <compoundname>contributors</compoundname>
     <title>Contributors</title>
@@ -28,6 +28,8 @@
 </listitem>
 <listitem><para><ulink url="https://github.com/boxerab">Aaron Boxer</ulink>: fixed compiler warning caused by unsigned-signed conversion </para>
 </listitem>
+<listitem><para><ulink url="https://github.com/bkmgit">Benson Muite</ulink>: fixed compilation errors of the wavefront benchmark </para>
+</listitem>
 <listitem><para><ulink url="https://cheng-hsiang-chiu.github.io/">Cheng-Hsiang Chiu</ulink>: improved the documentation, fixes typos, and test code examples </para>
 </listitem>
 <listitem><para><ulink url="https://www.linkedin.com/in/chandrahas-pundru-04552916a/">Chandrahas Pundru</ulink>: implemented cancellation of submitted taskflows </para>
@@ -45,6 +47,8 @@
 <listitem><para><ulink url="https://github.com/fstrugar">Filip Strugar</ulink>: fixed the bugs in fire-and-get taskflow execution and parallel algorithms </para>
 </listitem>
 <listitem><para><ulink url="https://github.com/ForgeMistress">Foge Mistress</ulink>: helped design the executor interface to avoid over-subscribed threads </para>
+</listitem>
+<listitem><para><ulink url="https://github.com/fran6co">Francisco Facioni</ulink>: improved the interface of Taskflow exception support through macro </para>
 </listitem>
 <listitem><para><ulink url="https://github.com/largerock">George Price</ulink>: improved the documentation pages and fixed several typos </para>
 </listitem>
@@ -68,6 +72,8 @@
 </listitem>
 <listitem><para><ulink url="https://github.com/LilyWangL">Lily</ulink>: helped added Taskflow to the MS vcpkg project </para>
 </listitem>
+<listitem><para><ulink url="https://github.com/longpractice">Longpractice</ulink>: fixed the MS compilation error for launch-loop algorithm </para>
+</listitem>
 <listitem><para><ulink url="https://github.com/burgholzer">Lukas Burgholzer</ulink>: improved the MAC OS compatibility with the standard variant library </para>
 </listitem>
 <listitem><para><ulink url="https://github.com/lrm77">Luke Majors</ulink>: implemented a sanitizer algorithm to sanitize deadlock control-flow tasks </para>
@@ -84,6 +90,8 @@
 </listitem>
 <listitem><para><ulink url="https://github.com/Maxi-git">Maxi-git:</ulink> improved the scheduler by removing redundant iterations in the busy stealing loop </para>
 </listitem>
+<listitem><para><ulink url="https://github.com/Notallthatevil">Nate</ulink>: fixed the compilation error of priority task queue on MS platforms </para>
+</listitem>
 <listitem><para><ulink url="https://github.com/netcan">Netcan</ulink>: designed a domain-specific graph language to simplify the creation of taskflows </para>
 </listitem>
 <listitem><para><ulink url="https://github.com/NanXiao">Nan Xiao</ulink>: fixed compilation error of unit tests on the Arch platform </para>
@@ -98,11 +106,15 @@
 </listitem>
 <listitem><para><ulink url="https://github.com/p12tic">Povilas Kanapickas</ulink>: helped design a new scheduling invariant to avoid busy stealing </para>
 </listitem>
+<listitem><para><ulink url="https://github.com/qbojj">qbojj</ulink>: helped fixed documentation errors related to dependent asynchronous tasking </para>
+</listitem>
 <listitem><para><ulink url="https://github.com/PhrygianGates">Zizheng Xiong</ulink>: added data-parallel programming models through GSoC 2022 </para>
 </listitem>
 <listitem><para><ulink url="https://github.com/Pursche">Pursche</ulink>: fixed compilation warning on MSVC </para>
 </listitem>
 <listitem><para><ulink url="https://github.com/remz1337">Remi Bedard-Couture</ulink>: added big object compilation support on MSVC </para>
+</listitem>
+<listitem><para><ulink url="https://github.com/doocman">Robin Soderholm</ulink>: fixed the runtime error of <ref refid="classtf_1_1cudaEvent" kindref="compound">cudaEvent</ref> destructor </para>
 </listitem>
 <listitem><para><ulink url="https://soonhokong.github.io/">Soonho Kong</ulink>: fixed the compilation warning of unused lambda variables </para>
 </listitem>
@@ -128,6 +140,10 @@
 </listitem>
 <listitem><para><ulink url="http://yibolin.com/">Yibo Lin</ulink>: helped design the interface of conditional tasking </para>
 </listitem>
+<listitem><para><ulink url="https://github.com/QiuYilin">Yilin Qiu</ulink>: helped implement the dependency removal methods in Taskflow </para>
+</listitem>
+<listitem><para><ulink url="https://github.com/weilewei">Weile</ulink>: helped added Taskflow to the compiler explorer interface </para>
+</listitem>
 <listitem><para><ulink url="https://guozz.cn/">Zizheng Guo</ulink>: applied Taskflow to speed up VLSI timing analysis and shared his feedback</para>
 </listitem>
 </itemizedlist>
@@ -151,7 +167,7 @@ Please <ulink url="https://taskflow.github.io/#tag_contact">contact us</ulink> i
 </listitem>
 <listitem><para><ulink url="https://theopenroadproject.org/">OpenRoad</ulink>: A 24-hour Fully Automatic Layout Generation Flow </para>
 </listitem>
-<listitem><para><ulink url="https://github.com/open-ephys">Open Ephys</ulink>: Open-source tools for neuroscience researchw </para>
+<listitem><para><ulink url="https://github.com/open-ephys">Open Ephys</ulink>: Open-source tools for neuroscience research </para>
 </listitem>
 <listitem><para><ulink url="https://github.com/masc-ucsc/livehd">LiveHD</ulink>: An infrastructure designed for Live Hardware Development </para>
 </listitem>
@@ -187,7 +203,7 @@ Please <ulink url="https://taskflow.github.io/#tag_contact">contact us</ulink> i
 </listitem>
 <listitem><para><ulink url="https://github.com/egorodet/MethaneKit">MethaneKit</ulink>: Modern 3D graphics rendering abstraction API and cross-platform application framework </para>
 </listitem>
-<listitem><para><ulink url="https://github.com/GameTechDev/XeGTAO">XeGTAO</ulink>: Implementation of the Practical Realtime Strategies for Accurate Indirect Occlusion </para>
+<listitem><para><ulink url="https://github.com/GameTechDev/XeGTAO">XeGTAO</ulink>: Implementation of the Practical Real-time Strategies for Accurate Indirect Occlusion </para>
 </listitem>
 <listitem><para><ulink url="https://github.com/fragcolor-xyz/chainblocks">ChainBlocks</ulink>: A scripting tool to build tools </para>
 </listitem>
@@ -209,12 +225,17 @@ Please <ulink url="https://taskflow.github.io/#tag_contact">contact us</ulink> i
 </listitem>
 <listitem><para><ulink url="https://github.com/tesseract-robotics/tesseract">Tesseract Robotics</ulink>: Lightweight robotics motion planning environment </para>
 </listitem>
-<listitem><para><ulink url="https://github.com/NcStudios/NcEngine">NcEngine</ulink>: 3D game engine written in C++20 targeting Windows</para>
+<listitem><para><ulink url="https://github.com/NcStudios/NcEngine">NcEngine</ulink>: 3D game engine written in C++20 targeting Windows </para>
+</listitem>
+<listitem><para><ulink url="https://www.xilinx.com/products/design-tools/vivado.html">AMD Vivao</ulink>: AMD&apos;s software synthesis suite for hardware designs </para>
+</listitem>
+<listitem><para><ulink url="https://www.moduleworks.com/">ModuleWorks</ulink>: Industry-proven ModuleWorks CAD/CAM technology into software solutions</para>
 </listitem>
 </itemizedlist>
 ... more at <ulink url="https://github.com/search?q=taskflow&amp;type=Code">GitHub</ulink>.</para>
 <para>Please <ulink url="https://taskflow.github.io/#tag_contact">contact us</ulink> if we forgot your name! </para>
 </sect1>
     </detaileddescription>
+    <location file="contributing/contributors.dox"/>
   </compounddef>
 </doxygen>
